@@ -1,5 +1,8 @@
 package pojos;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true) // Bu annotation aynı levelde bilinmeyen verileri görmezden gelerek diğer verilerin bu class tipinde pojo class'a çevrilmesine yarıyor
 public class BookingPojo {
 
     private String firstname;

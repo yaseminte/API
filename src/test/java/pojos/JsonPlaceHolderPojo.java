@@ -8,6 +8,7 @@ public class JsonPlaceHolderPojo {
     private Integer userId;
     private String  title;
     private Boolean  completed;
+    private Integer id;
 
     public JsonPlaceHolderPojo(Integer userId, String title, Boolean completed) {
         this.userId = userId;
@@ -16,7 +17,9 @@ public class JsonPlaceHolderPojo {
     }
 
     public JsonPlaceHolderPojo() {
+        System.out.println("yasemin");
     }
+
 
     public Integer getUserId() {
         return userId;

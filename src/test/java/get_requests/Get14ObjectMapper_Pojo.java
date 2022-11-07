@@ -35,7 +35,7 @@ public class Get14ObjectMapper_Pojo extends JsonplaceholderBaseUrl {
 
         // Set The Expected Data
         JsonPlaceHolderPojo expectedData = new JsonPlaceHolderPojo(10,"quis eius est sint explicabo",true);
-
+        System.out.println("*"+expectedData);
         // Send The Request Get The Response
         Response response = given().spec(spec).when().get("/{first}/{second}");
 

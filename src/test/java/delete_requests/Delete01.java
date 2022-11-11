@@ -1,4 +1,4 @@
-package delete_request;
+package delete_requests;
 
 import base_urls.JsonplaceholderBaseUrl;
 import io.restassured.response.Response;
